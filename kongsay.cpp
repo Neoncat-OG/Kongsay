@@ -35,6 +35,7 @@ int main(int argc, const char* argv[]) {
                |[[    ]]|
                ==========)" << "\n";
 	} else {
+                                std::cerr << "Usage: " << argv[0] << "<text>";
 		return 1;
 	}
 	return 0;
